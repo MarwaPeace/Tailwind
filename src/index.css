@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+  .nav-item{
+    @apply p-[2px] rounded-[2px] cursor-pointer hover:bg-gray-300
+  }
+}
